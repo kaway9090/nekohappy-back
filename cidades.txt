@@ -1,0 +1,96 @@
+<span class="city">
+</span>
+<span class="city2">
+Vive em
+<?php 
+ if($user['estado'] == 'ac'){
+      echo 'Acre';
+  }
+  if($user['estado'] == 'sc'){
+    echo 'Santa Catarina';
+    }
+    if($user['estado'] == 'al'){
+        echo 'Alagoas';
+        }
+        if($user['estado'] == 'am'){
+            echo 'Amazonas';
+            }
+            if($user['estado'] == 'ap'){
+                echo 'Amapá';
+                }
+
+                if($user['estado'] == 'ba'){
+                    echo 'Bahia';
+                }
+                if($user['estado'] == 'ce'){
+                  echo 'Ceará';
+                  }
+                  if($user['estado'] == 'df'){
+                      echo 'Distrito Federal';
+                      }
+                      if($user['estado'] == 'es'){
+                          echo 'Espírito Santo';
+                          }
+             if($user['estado'] == 'go'){
+                 echo 'Goiás';
+                   }          
+                if($user['estado'] == 'ma'){
+                    echo 'Maranhão';
+                }
+                if($user['estado'] == 'mt'){
+                  echo 'Mato Grosso';
+                  }
+                  if($user['estado'] == 'ms'){
+                      echo 'Mato Grosso do Sul';
+                      }
+                      if($user['estado'] == 'mg'){
+                          echo 'Minas Gerais';
+                          }
+                          if($user['estado'] == 'pa'){
+                              echo 'Pará';
+                              }
+
+                              if($user['estado'] == 'pb'){
+                                echo 'Paraíba';
+                                  }          
+                               if($user['estado'] == 'pr'){
+                                   echo 'Paraná';
+                               }
+                               if($user['estado'] == 'pe'){
+                                 echo 'Pernambuco';
+                                 }
+                                 if($user['estado'] == 'pi'){
+                                     echo 'Piauí';
+                                     }
+                                     if($user['estado'] == 'rj'){
+                                         echo 'Rio de Janeiro';
+                                         }
+                                         if($user['estado'] == 'rn'){
+                                             echo 'Rio Grande do Norte';
+                                             }
+
+
+                                             
+                              if($user['estado'] == 'ro'){
+                                echo 'Rondônia';
+                                  }          
+                               if($user['estado'] == 'rs'){
+                                   echo 'Rio Grande do Sul';
+                               }
+                               if($user['estado'] == 'rr'){
+                                 echo 'Roraima';
+                                 }
+                                 if($user['estado'] == 'se'){
+                                     echo 'Sergipe';
+                                     }
+                                     if($user['estado'] == 'sp'){
+                                         echo 'São Paulo';
+                                         }
+                                         if($user['estado'] == 'to'){
+                                             echo 'Tocantins';
+                                             }
+                                             if($user['estado'] == 'outro'){
+                                                echo 'Gringo';
+                                                }
+?>
+</span>

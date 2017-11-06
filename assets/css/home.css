@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: none;
+    list-style:none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #25599C;
+    border-radius: 40px;
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 100000;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background: #4A48B4;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.50);
+    z-index: 100000;
+  }
+
+.header-home{
+    background: #f55253;
+    width: 100%;
+    height: 43px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.50);
+    z-index: 100000;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    position: relative;
+    margin: 0px auto;
+}
+
+.align{
+    width: 60vw;
+    height: inherit;
+}
+
+.left-item-header{
+    float: left;
+    width: 30vw;
+}
+
+.right-item-header{
+    float: right;
+    width: 30vw;
+    background: blue;
+    right: 0;
+    position: relative;
+}
+
+.logost{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.buscas{
+    height: 35px;
+    width: 2vw;
+    position: relative;
+    top: 5px;
+    border: none;
+    border-radius: 1px;
+    right: -4.5vw;
+    cursor: pointer;
+    background: #fff;
+}
+
+.buscas:hover{
+    background: #e5e5e5;
+}
+
+.buscart:focus +  .buscas span{
+    background-position: 0 -366px;
+}
+
+.buscart:focus +  .buscas{
+    background: rgba(97, 50, 50, 0.38);
+}
+
+.buscas span{
+    background-image: url(/static/img/icones_header.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -351px;
+    cursor: pointer;
+    display: block;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    width: 14px;
+    z-index: 2;
+    left: 13px;
+}
+
+.buscart{
+    width: 200px;
+    height: 35px;
+    border-radius: 2px;
+    position: absolute;
+    top: 5px;
+    border: none;
+    padding: 5px;
+    margin-left: 120px;
+    font-size: 18px;
+}

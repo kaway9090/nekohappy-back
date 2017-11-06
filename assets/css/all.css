@@ -1,0 +1,160 @@
+
+.player{
+    background-color: rgba(0,0,0,0.50);
+    position: relative;
+}
+
+.content{
+    width: 953px;
+    height: 580px;
+}
+
+.top{
+    top: 50px;
+}
+
+.top2{
+    top: 90px;
+}
+
+.border{
+    border-radius: 4px;
+}
+
+.border{
+    border-radius: 2.5px;
+}
+
+#player{
+    opacity: 1;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#playerwatchpri{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.shadow{
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.80);
+}
+
+.right{
+    width: 30px;
+    height: 75%;
+    background: rgba(0,0,0,.50);
+    z-index: 100;
+    position: relative;
+    float: right;
+    right: 30px;
+}
+
+#Layer_1{
+    position: relative;
+    top: 5px;
+    width: 30px;
+    padding-left: 2px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+}
+
+#Layer_1:hover{
+    fill: rgba(52, 152, 219, 1);
+}
+
+.progress{
+    width: 2px;
+    height: 90%;
+    background: rgba(0,0,0,.50);
+    position: relative;
+    padding-left: 5px;
+    left: 12px;
+    top: 9px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+}
+
+.progressatual{
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to left, rgb(162, 46, 46), rgba(41, 128, 185,0));
+    position: absolute;
+    padding-left: 5px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+}
+
+.border-tat{
+    border-radius: 20px;
+}
+
+.button-progress{
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    left: 0px;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+}
+
+.button-progress:hover
+{
+    -ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5);
+}
+
+#player{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+#buttonpp{
+    background: transparent;
+    border:none;
+}
+
+#buttonpmp{
+    background: transparent;
+    border:none;
+}
+
+#defaultBar{
+    width: 2px;
+    background: rgba(0,0,0..80);
+    position: absolute;
+    padding-left: 5px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+
+#fullscreen2{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: relative;
+}
+
+#normal{
+    width: 953px;
+    height: 580px;
+}
